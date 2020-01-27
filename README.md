@@ -1,1 +1,0 @@
-# techrvx.github.io
