@@ -97,6 +97,10 @@ dd:not(:last-child):after {
 }
 
 .image {
+  border-bottom: 0;
+}
+
+.image img {
   width: 100%;
   margin-bottom: 4rem;
 }
@@ -132,17 +136,4 @@ header a, header a:visited {
 header a:hover, header a:focus {
   color: #666;
   text-decoration: none;
-}
-
-.avatar:after {
-  content: '❯';
-  display: block;
-  background: #000;
-  border: solid 10px #ccc;
-  width: 36rem;
-  height: 36rem;
-  color: #ff3333;
-  text-align: center;
-  line-height: 36rem;
-  font-size: 18rem;
 }
