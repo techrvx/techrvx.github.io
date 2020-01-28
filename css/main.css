@@ -49,14 +49,16 @@ main ul li + li { margin-top: 1rem; }
   color: var(--color-fg-drk);
 }
 
-.social--item { display: inline-block; }
+.social--item {
+  display: inline-block;
+  margin-right: 1.5rem;
+}
 
 [class^="flaticon-"] { text-decoration: none; }
 
 [class^="flaticon-"]:before,
 [class*=" flaticon-"]:before {
   font-size: 1.5rem;
-  margin-right: 1.5rem;
 }
 
 .flaticon-twitter:before {
