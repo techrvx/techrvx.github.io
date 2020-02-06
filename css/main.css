@@ -83,8 +83,6 @@ main ul li + li { margin-top: 1rem; }
   left: 0;
   bottom: 0;
   z-index: -1;
-  background: url("../images/bg.png") center/cover no-repeat;
-  opacity: .1;
 }
 
 @media screen and (min-width: 600px) {
